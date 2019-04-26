@@ -3,11 +3,6 @@ Personality Classification with Social Media
 
 Environment Setup:
 1. This project requires RStudio 1.2 to be installed on the computer.
-2. In the terminal, run the following commands to install packages:
-
-	install.packages("Matrix")
-	install.packages("irlba")
-	install.packages("topicmodels")
 
 Data:
 1. Download the data from the following link:
