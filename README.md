@@ -3,6 +3,11 @@ Personality Classification with Social Media
 
 Environment Setup:
 1. This project requires RStudio 1.2 to be installed on the computer.
+2. In the terminal, run the following commands to install packages:
+
+	install.packages("Matrix")
+	install.packages("irlba")
+	install.packages("topicmodels")
 
 Data:
 1. Download the data from the following link:
@@ -12,4 +17,4 @@ Data:
 Runtime Instructions:
 1. To run the program, open terminal and navigate to the code folder inside project.
 2. Run the command "Rscript FinalCode.R".
-3. To use LDA instead of SVD for dimensionality reduction, comment the lines 43-45 and uncomment the lines 48-49.
+3. To use LDA instead of SVD for dimensionality reduction, comment the lines 48-50 and uncomment the lines 53-54.

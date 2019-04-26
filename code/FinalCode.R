@@ -1,4 +1,9 @@
 # load libraries
+install.packages("Matrix")
+install.packages("irlba")
+install.packages("topicmodels")
+install.packages("ROCR")
+
 require(Matrix)
 library(ROCR)
 library(topicmodels)
